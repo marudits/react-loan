@@ -1,0 +1,85 @@
+.page-payment {
+    &__header {
+        h1 {
+            font-weight: 600;
+        }
+        p {
+            font-style: italic;
+        }
+    }
+
+    &__search {
+        p {
+            font-style: italic;
+            margin-top: 1rem;
+
+            span {
+                font-weight: 500;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 1rem;
+
+        .content {
+            &-history {
+                table {
+                    thead {
+                        tr {
+                            font-weight: 600;
+
+                            th {
+                                width: 20%;
+                            }
+                        }
+                    }
+                    tbody {
+                        width: 100%;
+                        display: block;
+                        height: 420px;
+                        overflow: auto;
+                    }
+
+                    tr {
+                        display: table;
+                        width: 100%;
+                        table-layout: fixed;
+
+                        th {
+                            width: 20%;
+
+                            b {
+                                font-weight: 600px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .jumbotron {
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+
+    table {
+        text-align: left;
+        
+        thead {
+            th {
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+
+        tbody {
+            th {
+                font-weight: 600;
+            }
+        }
+    }
+}

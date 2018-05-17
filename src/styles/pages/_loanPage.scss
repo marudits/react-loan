@@ -1,0 +1,29 @@
+.page-loan {
+    &__header {
+        h1 {
+            font-weight: 600;
+        }
+        p {
+            font-style: italic;
+        }
+    }
+
+    &__content {
+        width: 90%;
+        margin: 0 auto;
+
+        h4 {
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        label {
+            font-weight: 500;
+        }
+    }
+
+    .jumbotron {
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+}

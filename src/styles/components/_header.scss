@@ -1,0 +1,11 @@
+.nav-link {
+    a {
+        color: whitesmoke;
+    }
+}
+
+.menu.selected {
+    font-weight: bolder;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
